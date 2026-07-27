@@ -16,6 +16,8 @@ backend/.env.*
 !backend/.env.example
 credentials.json
 backend/credentials.json
+client_secret*.json
+*.json.secret
 
 # Database and local runtime data
 backend/omnicloud.db
