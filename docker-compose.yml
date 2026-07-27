@@ -8,12 +8,6 @@ services:
     environment:
       PORT: 8787
       DATABASE_PATH: /app/data/omnicloud.db
-      CORS_ORIGIN: http://localhost:8080
-      FRONTEND_URL: http://localhost:8080
-      GOOGLE_REDIRECT_URI: http://localhost:8080/api/accounts/google/callback
-      ONEDRIVE_REDIRECT_URI: http://localhost:8080/api/accounts/onedrive/callback
-      DROPBOX_REDIRECT_URI: http://localhost:8080/api/accounts/dropbox/callback
-      YANDEX_REDIRECT_URI: http://localhost:8080/api/accounts/yandex/callback
     volumes:
       - omnicloud_api_data:/app/data
     restart: unless-stopped
