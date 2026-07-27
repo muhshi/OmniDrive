@@ -424,3 +424,11 @@ Important data stored locally includes:
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## 📜 Changelog
+
+### 2026-07-27
+- Add `deploy.sh` for one-click Docker deployment.
+- Update Docker web port configuration to `8085`.
+- Fix Docker Compose environment variables override issue.
+
